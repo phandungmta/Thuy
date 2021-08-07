@@ -77,7 +77,7 @@ fetch('thuy.txt')
             setTimeout(() => {
                 myFunction(item, content, i);
 
-            }, 10);
+            }, i * 10);
         });
         console.log(max);
 
